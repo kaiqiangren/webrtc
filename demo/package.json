@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index.js --watch index.js --exec babel-node",
+    "start": "cross-env NODE_ENV=production node index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "kaiqiangren",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
